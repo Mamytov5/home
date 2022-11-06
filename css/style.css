@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+#header {
+    background: #AFD4E2;
+}
+
+.header {
+    z-index: 4;
+    position: fixed;
+    width: 90%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    text-transform: uppercase;
+    color: #1E3240;
+}
+
+.header-nav a {
+    margin: 0 20px;
+    color: #1E3240;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 50px;
+    color: #1E3240;
+}
+
+.hero-subtitle {
+    font-size: 12px;
+    color: #1E3240;
+    margin: 20px 0;
+}
+
+#hero {
+    background: #AFD4E2;
+    height: 600px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero img {
+    width: 600px;
+    height: 600px;
+}
+
+.btn-left {
+    width: 100px;
+    height: 40px;
+    background: #1E3240;
+    border: none;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.btn-right {
+    width: 100px;
+    height: 40px;
+    line-height: 120%;
+    color: #1E3240;
+    background: transparent;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.previous-text {
+    display: flex;
+    align-items: center;
+}
+
+#award {
+    margin: 60px 0;
+}
+
+.award {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.previous {
+    margin: 0 20px;
+}
+
+.award-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1E3240;
+}
+
+.award-subtitle {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #BDBDBD;
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1E3240;
+
+}
+
+.title {
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #AFD4E2;
+
+}
+
+.swiper-title {
+    margin: 10px 0;
+}
+
+.swiper-projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.images-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.swiper-block{
+    position: relative;
+    margin-left: 19px;
+    width: 310px;
+    height: 100px;
+    margin-top: -70px;
+    background: #f8f2f2;
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.04);
+}
+.swiper-block-title{
+    display: flex;
+    justify-content: center;
+    color: #1E3240;
+    font-size: 14px;
+    line-height: 30px;
+}
+.swiper-block-subtitle{
+    color: #1E3240;
+    display: flex;
+    justify-content: center;
+}
+
+.smiles-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.images-text img{
+    padding: 50px 0;
+}
+.images-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+.contact-title{
+    font-size: 48px;
+    color: #1E3240;
+}
+.contact-subtitle{
+    font-size: 18px;
+margin: 15px 0;
+    color: #BDBDBD;
+}
+.contact-input{
+    background: #FFFFFF;
+    width: 200px;
+    height: 30px;
+    margin: 8px 10px;
+    border-radius: 5px;
+    padding: 0 10px;
+    border: 1px solid #1E3240;
+}
+.footer-input{
+    width: 450px;
+    height: 30px;
+    margin: 8px 10px;
+    padding: 0 10px 90px 10px;
+}
+.contact-btn{
+    width: 124px;
+    height: 53px;
+    background: #1E3240;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin: 0 15px;
+}
+.contact-btn:hover{
+    background: linear-gradient(#e66465, #9198e5); }
+.email{
+    font-size: 12px;
+    color: #BDBDBD;
+}
+.span{
+    display: flex;
+    align-items: center;
+}
