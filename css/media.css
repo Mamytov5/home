@@ -1,0 +1,106 @@
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1140px) {
+}
+
+@media (max-width: 1024px) {
+    .swiper-slide img {
+        display: block;
+        width: 88%;
+        height: 96%;
+        object-fit: cover;
+    }
+
+    .swiper-block {
+        position: relative;
+        margin-left: 16px;
+        width: 218px;
+        height: 76px;
+        margin-top: -55px;
+        background: #f8f2f2;
+        box-shadow: 0 2px 18px rgb(0 0 0 / 4%);
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-title {
+        font-weight: 700;
+        font-size: 30px;
+        color: #1E3240;
+    }
+
+    .hero-subtitle {
+        font-size: 11px;
+        color: #1E3240;
+        margin: 20px 0;
+    }
+
+    .award-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 49px;
+        color: #1E3240;
+    }
+
+    .award-subtitle {
+        font-size: 11px;
+        margin: 20px 0;
+        color: #BDBDBD;
+    }
+
+    .contact-input {
+        background: #FFFFFF;
+        width: 194px;
+        height: 30px;
+        margin: 8px 10px;
+        border-radius: 5px;
+        padding: 0 10px;
+        border: 1px solid #1E3240;
+    }
+}
+
+@media (max-width: 768px) {
+    .images-text img {
+        height: 300px;
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .award img {
+        height: 400px;
+    }
+
+    .award-title {
+        font-weight: 700;
+        font-size: 37px;
+        line-height: 50px;
+        color: #1E3240;
+    }
+
+    .contact img {
+        width: 300px;
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 451px) {
+    .award img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 376px) {
+}
+
+@media (max-width: 320px) {
+
+}
